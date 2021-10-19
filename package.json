@@ -1,0 +1,29 @@
+{
+  "name": "servicios-fedegan",
+  "version": "1.0.0",
+  "description": "Ejercicio educativo de desarrollo de servicios para una entidad caso de estudio (Fedegan).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Josewp10/servicios-fedegan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Josewp10/servicios-fedegan/issues"
+  },
+  "homepage": "https://github.com/Josewp10/servicios-fedegan#readme",
+  "dependencies": {
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13",
+    "pg": "^8.7.1"
+  }
+}
