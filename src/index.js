@@ -23,7 +23,7 @@ app.get('/', (req,res) =>{
 const port = config.get('SERVER.port');
 
 //Levantamiento
- app.listen(port || 3000, () => {
+ app.listen(port || 5000, () => {
     console.log(`Escuchando API en http://localhost:${port}`);
  });
 
