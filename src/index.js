@@ -18,12 +18,16 @@ app.get('/', (req,res) =>{
 });
 
 //routes
+const login = require('../src/libs/login/routes/login');
+app.use(login);
 
+const signup = require('../src/libs/signup/routes/signup');
+app.use(signup);
 //Port
 const port = config.get('SERVER.port');
 
 //Levantamiento
- app.listen(port || 5000, () => {
+ app.listen(port || 3000, () => {
     console.log(`Escuchando API en http://localhost:${port}`);
  });
 

@@ -11,5 +11,6 @@ module.exports={
         password: process.env.DB_PASSWORD,
         ssl: { rejectUnauthorized: false },
         port: process.env.DB_PORT
-    }
+    },
+    SECRET_KEY: process.env.SECRET_KEY
 }
